@@ -1,0 +1,45 @@
+.btn
+    border-radius: 3px
+    border: none
+    outline: none
+    font-size: 13px
+    line-height: 1
+    padding: 12px 23px
+    cursor: pointer
+    transition: background-color .3s
+    text-transform: uppercase
+    display: inline-block
+    text-decoration: none
+    min-width: 130px
+    text-align: center
+    @media screen and (min-width: 991px)
+
+    @media screen and (min-width: 1171px)
+        padding: 15px 23px
+        font-size: 16px
+        min-width: 154px
+
+    &--orange
+        color: white
+        background-color: #ff891e
+        &:hover
+            background-color: darken(#ff891e, 3%)
+    &--tr
+        color: black
+        border: 1px solid black
+        background-color: transparent
+        padding: 11px 23px
+
+        @media screen and (min-width: 1171px)
+            padding: 14px 23px
+
+    &.-fade
+        animation: fadein 1s infinite
+
+@keyframes fadein
+    0%
+        opacity: 1
+    50%
+        opacity: 0.6
+    to
+        opacity: 1

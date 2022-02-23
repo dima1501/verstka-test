@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Pug-Sass Starter</title>
+    <!-- Styles-->
+    <link href="./assets/css/styles.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="app">
+      <header></header>
+      <div class="demo">
+        <div class="demo__btn" id="btnScreen">
+          <button class="btn btn--orange" id="demoOpener">Начать демонстрацию</button>
+        </div>
+        <div class="demo__main" id="sliderScreen">
+          <div class="demo-slider">
+            <div class="demo-slider__arrows">
+              <div class="demo-slider__arrow -left">
+                <div class="demo-slider__arrow-icon"><i class="fa-solid fa-angle-left"></i></div>
+              </div>
+              <div class="demo-slider__arrow -right">
+                <div class="demo-slider__arrow-icon"><i class="fa-solid fa-angle-right"></i></div>
+              </div>
+            </div>
+            <div class="glide">
+              <div class="demo-slider__arrows" data-glide-el="controls">
+                <div class="demo-slider__arrow -left" data-glide-dir="&lt;">
+                  <div class="demo-slider__arrow-icon"><i class="fa-solid fa-angle-left"></i></div>
+                </div>
+                <div class="demo-slider__arrow -right" data-glide-dir="&gt;">
+                  <div class="demo-slider__arrow-icon"><i class="fa-solid fa-angle-right"></i></div>
+                </div>
+              </div>
+              <div class="glide__track" data-glide-el="track">
+                <div class="glide__slides">
+                  <div class="demo-slider__slide">
+                    <picture class="demo-slider__picture">
+                      <source srcset="assets/images/slider_1min.webp" media="(max-width: 990px)" type="image/webp">
+                      <source srcset="assets/images/slider_1.webp" media="(min-width: 991px)" type="image/webp"><img class="demo-slider__picture-img" src="assets/images/slider_1.jpg" alt="">
+                    </picture>
+                    <div class="container">
+                      <div class="demo-slider__content">
+                        <h2 class="demo-slider__title">Этот текст добавлен для демонстрации на странице</h2>
+                        <p class="demo-slider__text -no-mobile">Акция действует с 01.07.18 по 31.07.18</p>
+                        <p class="demo-slider__text">Тест на внимательность</p>
+                        <div class="demo-slider__actions">
+                          <div class="demo-slider__actions-item"><a class="btn btn--orange" href="#">Подробнее</a></div>
+                          <div class="demo-slider__actions-item -no-mobile"><a class="btn btn--tr" href="#">Все акции</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="demo-slider__slide">
+                    <picture class="demo-slider__picture">
+                      <source srcset="assets/images/slider_2min.webp" media="(max-width: 990px)" type="image/webp">
+                      <source srcset="assets/images/slider_2.webp" media="(min-width: 991px)" type="image/webp"><img class="demo-slider__picture-img" src="assets/images/slider_2.jpg" alt="">
+                    </picture>
+                    <div class="container">
+                      <div class="demo-slider__content">
+                        <h2 class="demo-slider__title">Этот текст добавлен для демонстрации на странице</h2>
+                        <p class="demo-slider__text -no-mobile">Акция действует с 01.07.18 по 31.07.18</p>
+                        <p class="demo-slider__text">Тест на внимательность</p>
+                        <div class="demo-slider__actions">
+                          <div class="demo-slider__actions-item"><a class="btn btn--orange" href="#">Подробнее</a></div>
+                          <div class="demo-slider__actions-item -no-mobile"><a class="btn btn--tr" href="#">Все акции</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="demo-slider__slide">
+                    <picture class="demo-slider__picture">
+                      <source srcset="assets/images/slider_3min.webp" media="(max-width: 990px)" type="image/webp">
+                      <source srcset="assets/images/slider_3.webp" media="(min-width: 991px)" type="image/webp"><img class="demo-slider__picture-img" src="assets/images/slider_3.jpg" alt="">
+                    </picture>
+                    <div class="container">
+                      <div class="demo-slider__content">
+                        <h2 class="demo-slider__title">Этот текст добавлен для демонстрации на странице</h2>
+                        <p class="demo-slider__text -no-mobile">Акция действует с 01.07.18 по 31.07.18</p>
+                        <p class="demo-slider__text">Тест на внимательность</p>
+                        <div class="demo-slider__actions">
+                          <div class="demo-slider__actions-item"><a class="btn btn--orange" href="#">Подробнее</a></div>
+                          <div class="demo-slider__actions-item -no-mobile"><a class="btn btn--tr" href="#">Все акции</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="demo-slider__slide">
+                    <picture class="demo-slider__picture">
+                      <source srcset="assets/images/slider_4min.webp" media="(max-width: 990px)" type="image/webp">
+                      <source srcset="assets/images/slider_4.webp" media="(min-width: 991px)" type="image/webp"><img class="demo-slider__picture-img" src="assets/images/slider_4.jpg" alt="">
+                    </picture>
+                    <div class="container">
+                      <div class="demo-slider__content">
+                        <h2 class="demo-slider__title">Этот текст добавлен для демонстрации на странице</h2>
+                        <p class="demo-slider__text -no-mobile">Акция действует с 01.07.18 по 31.07.18</p>
+                        <p class="demo-slider__text">Тест на внимательность</p>
+                        <div class="demo-slider__actions">
+                          <div class="demo-slider__actions-item"><a class="btn btn--orange" href="#">Подробнее</a></div>
+                          <div class="demo-slider__actions-item -no-mobile"><a class="btn btn--tr" href="#">Все акции</a></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="demo-slider__previews">
+                <div class="container">
+                  <div class="demo-slider__previews-row" data-glide-el="controls[nav]">
+                    <div class="d-preview" data-glide-dir="=0">
+                      <div class="d-preview__dot"></div>
+                      <div class="d-preview__inner">
+                        <picture class="d-preview__picture">
+                          <source srcset="assets/images/slider_1pre.webp" type="image/webp"><img class="d-preview__picture-img" src="assets/images/slider_1pre.jpg" alt="">
+                        </picture>
+                        <div class="d-preview__content">
+                          <p class="d-preview__note">Акция действует с 01.07.18</p>
+                          <h4 class="d-preview__title">Этот текст добавлен для демонстрации на странице</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-preview" data-glide-dir="=1">
+                      <div class="d-preview__dot"></div>
+                      <div class="d-preview__inner">
+                        <picture class="d-preview__picture">
+                          <source srcset="assets/images/slider_2pre.webp" type="image/webp"><img class="d-preview__picture-img" src="assets/images/slider_2pre.jpg" alt="">
+                        </picture>
+                        <div class="d-preview__content">
+                          <p class="d-preview__note">Акция действует с 01.07.18</p>
+                          <h4 class="d-preview__title">Этот текст добавлен для демонстрации на странице</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-preview" data-glide-dir="=2">
+                      <div class="d-preview__dot"></div>
+                      <div class="d-preview__inner">
+                        <picture class="d-preview__picture">
+                          <source srcset="assets/images/slider_3pre.webp" type="image/webp"><img class="d-preview__picture-img" src="assets/images/slider_3pre.jpg" alt="">
+                        </picture>
+                        <div class="d-preview__content">
+                          <p class="d-preview__note">Акция действует с 01.07.18</p>
+                          <h4 class="d-preview__title">Этот текст добавлен для демонстрации на странице</h4>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="d-preview" data-glide-dir="=3">
+                      <div class="d-preview__dot"></div>
+                      <div class="d-preview__inner">
+                        <picture class="d-preview__picture">
+                          <source srcset="assets/images/slider_4pre.webp" type="image/webp"><img class="d-preview__picture-img" src="assets/images/slider_4pre.jpg" alt="">
+                        </picture>
+                        <div class="d-preview__content">
+                          <p class="d-preview__note">Акция действует с 01.07.18</p>
+                          <h4 class="d-preview__title">Этот текст добавлен для демонстрации на странице</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer></footer>
+    </div>
+    <!-- Scripts-->
+    <script src="https://kit.fontawesome.com/b22befee27.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script src="./assets/js/scripts.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+.demo
+    min-height: 100vh
+    position: relative
+    &__btn
+        position: fixed
+        left: 0
+        top: 0
+        right: 0
+        bottom: 0
+        background-color: #c4cdd6
+        z-index: 2
+        display: flex
+        justify-content: center
+        align-items: center
+        transition: opacity .3s, visibility .3s
+        &.-hidden
+            visibility: hidden
+            opacity: 0
+    &__main
+        position: relative
+        z-index: 1
+        visibility: hidden
+        opacity: 0
+        transition: opacity .3s, visibility .3s
+        &.-visible
+            visibility: visible
+            opacity: 1
